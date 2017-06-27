@@ -1,0 +1,48 @@
+body * {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.box-parent {
+  width: 800px;
+  height: 500px;
+  font-size: 0; /* get rid of the whitespace between child boxes */
+  margin-top: 90px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.box {
+  border: 1px solid black;
+  display: inline-block;
+}
+
+.box_half {
+  width: 50%;
+  height: 40%;
+}
+
+.box_third {
+  width: 33.33%;
+  height: 60%;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.grey {
+  background-color: grey;
+}
+
+.black {
+  background-color: black;
+}
+
+.orange {
+  background-color: orange
+}
